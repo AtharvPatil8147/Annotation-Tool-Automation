@@ -1,0 +1,8 @@
+Use this template for generating csv files based on your preference
+
+
+Generate 100 paragraph annotations in this format:- Source: Deshi Marathi- Annotated: Textbook Marathi- English: Translation
+Rules:- Use natural Marathi (Devanagari script)- Keep sentences simple and realistic- Ensure proper grammar correction in annotated version.
+Output ONLY in downloadable CSV format:Source,Annotated,English.
+Do not double quote anything save the file with UTF-8 BOM encoding (`utf-8-sig`), which ensures Devanagari script renders correctly when opened in Excel, Google Sheets, or any standard CSV viewer. 
+Do not repeat any sentences, and keep them as human written sentences.
