@@ -53,7 +53,7 @@ with sync_playwright() as p:
         for row in reader:
             try:
                 # 🔽 Select Annotation Type (Paragraph = value 3)
-                page.select_option("#annotation_type_id", value="3")
+                page.select_option("#annotation_type_id", value="1")
 
                 # 🔽 Select Language (Marathi = value 3)
                 page.select_option("#language_id", value="3")
@@ -69,7 +69,7 @@ with sync_playwright() as p:
 
                 print(row)
                 line_count = line_count+1
-                print("Line number: ", line_count)
+                print("Line number: ", line_count, "done!")
 
                 # 🔽 Fill Text Fields
                 page.fill("#source_text", row["Source"])
